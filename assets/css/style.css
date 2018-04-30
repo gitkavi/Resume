@@ -1,0 +1,14 @@
+#home {color: #fff; background-color: #1E88E5;}
+#portfolio {color: #fff; background-color: #673ab7;}
+#contact {color: #fff; background-color: #ff9800;}
+
+#home{
+    height:550px;
+}
+#portfolio{
+    height:550px;
+}
+#contact{
+    height:550px;
+}
+
