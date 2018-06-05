@@ -40,11 +40,11 @@ body {
   }
   
   .list-social-icons a {
-    color: #495057;
+    color: #f1c9d0;
   }
   
   .list-social-icons a:hover {
-    color: #BD5D38;
+    color: #ff0000;
   }
   
   .list-social-icons a .fa-lg {
@@ -56,7 +56,7 @@ body {
   }
   
   .list-icons .list-inline-item i:hover {
-    color: #BD5D38;
+    color: #ff0000;
   }
   
   #sideNav .navbar-nav .nav-item .nav-link {
@@ -143,6 +143,6 @@ body {
   }
   
   a:hover, a:focus, a:active {
-    color: white;
+    color: #ff0000;
   }
   
