@@ -63,6 +63,10 @@ body {
     font-weight: 600;
     text-transform: uppercase;
   }
+
+  .sidebar-item:active{
+    color:white;
+  }
   
   @media (min-width: 992px) {
     #sideNav {
