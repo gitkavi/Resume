@@ -20,12 +20,13 @@ body {
     font-family: 'Saira Extra Condensed', serif;
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    /* color: #343a40; */
+    color: #0f6ba5;
   }
   
   h1 {
-    font-size: 6rem;
-    line-height: 5.5rem;
+    font-size: 5rem;
+    line-height: 5.0rem;
   }
   
   h2 {
@@ -40,11 +41,11 @@ body {
   }
   
   .list-social-icons a {
-    color: #f1c9d0;
+    color: #0f6ba5;
   }
   
   .list-social-icons a:hover {
-    color: #ff0000;
+    color: #64686b;
   }
   
   .list-social-icons a .fa-lg {
@@ -53,22 +54,34 @@ body {
   
   .list-icons {
     font-size: 3rem;
-    color: #f1c9d0;
+    color: #0f6ba5;
   }
   
   .list-icons .list-inline-item i:hover {
-    color: #ff0000;
+    color: #64686b;
   }
   
-  #sideNav .navbar-nav .nav-item .nav-link {
+  #sideNav .navbar-nav .nav-item a {
     font-weight: 600;
     text-transform: uppercase;
-  }
-
-  .sidebar-item:active{
     color:white;
   }
-  
+  .card-img{
+    width:auto;
+    height:250px;
+  }
+  .trenzr-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+
   @media (min-width: 992px) {
     #sideNav {
       text-align: center;
@@ -136,18 +149,18 @@ body {
   }
   
   .bg-color {
-    background-color: #f1c9d0 !important;
+    background-color: #0f6ba5 !important;
   }
 
   .text-primary {
-    color: #f1c9d0 !important;
+    color: #0f6ba5 !important;
   }
   
   a {
-    color: #f1c9d0;
+    color: #0f6ba5;
   }
   
   a:hover, a:focus, a:active {
-    color: #ff0000;
+    color: #64686b;
   }
   
