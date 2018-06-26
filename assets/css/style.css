@@ -76,11 +76,6 @@ body {
     margin-right: auto;
     width: 50%;
   }
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
-  }
 
   @media (min-width: 992px) {
     #sideNav {
@@ -120,6 +115,12 @@ body {
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
       display: block;
     }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 30px;
+    }
   }
   
   section.resume-section {
@@ -138,6 +139,17 @@ body {
     }
     section.resume-section .resume-item .resume-date {
       min-width: 18rem;
+    }
+    .grid {
+      display: grid;
+      grid-gap: 30px;
+    }
+  }
+
+  @media (max-width:768px) {
+    .grid {
+      display: grid;
+      grid-gap: 30px;
     }
   }
   
